@@ -9,8 +9,8 @@ const server = http.createServer((req, res)=> {
     res.end(fileContent)
 })
 
-server.listen(8000, '127.0.0.1', () =>{
-    console.log("Listening to port 8000")
+server.listen(80, '127.0.0.1', () =>{
+    console.log("Listening to port 80")
 })
 
 
